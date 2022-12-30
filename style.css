@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Inter', sans-serif;
+}
+body{
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 1500px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.student_portal{
+    position: relative;
+    top: 0px;
+    background-color: #000;
+    height: 75px;
+}
+.insidestu{
+    width: 164px;
+    height: 29px; 
+}
+.insidestu h6{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #f9f9f9;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.searchbar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#searchbar1{
+    width: 75%;
+    height: 65px;
+    border: 1px solid #000;
+}
+#searchbtn{
+    width: 20%;
+    height: 65px;
+    margin-left: 15px;
+    color: #f9f9f9;
+    background-color: #000;
+    border: 1px solid #000;
+}
+.sortboxes{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#sortaz,#sortza,#sortmarks,#sortpassing,#sortclass,#sortgender{ 
+    position: relative;
+    width: 217px;
+    height: 66px;
+    background-color: #000;
+    color: #f9f9f9; 
+}
+table{
+    font-family: 'Inter', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#id{
+    width: 23px;
+    margin-left: 10px;
+}
+#studentdata{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+td,tr,th{
+    border: 1px solid #000;
+    text-align: center;
+    height: 50px;
+}
+
+  
